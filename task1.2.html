@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 1.2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <img src="sample.jpeg" style="max-width:100%;height:auto;">
+    <p style="font-size:10vw">This text will dynamically change to fit the devices screen size</p>
+    <script>
+
+        let text = "one, two, three"
+        let slice = text.slice(5, 8)
+        let sub = text.substr(5)
+        let replace = text.replace("one, two, three", "four, five, six")
+        let upper = text.toUpperCase()
+        let lower = text.toLowerCase()
+
+        let number = "10.596"
+        let tostring = number.toString()
+        let exponential = number.toExponential(2)
+        let fixed = number.toFixed(2)
+        let integer = number.isInteger()
+        let safe = number.isSafeInteger()
+
+        const colours = ["Blue", "Red", "Green", "Purple", "Yellow"]
+        let length = colours.length
+        let arraystring = colours.toString()
+        let pop = colours.pop()
+        let push = colours.push("Aqua")
+
+        const num = [1, 2, 3, 4, 5]
+        shift = num.shift()
+
+        year = getFullYear()
+        month = getMonth()
+        day = getDay()
+        hour = getHour()
+        time = getTime()
+
+        function addition(numa, numb) {
+            return numa + numb;
+        }
+
+        function hello() {
+            alert("Hello");
+        }
+
+    </script>
+
+    <h1>String Methods</h1>
+    <p>Slice method: <script type="text/javascript">document.write(slice)</script></p>
+    <p>Substring method: <script type="text/javascript">document.write(sub)</script></p>
+    <p>Replace method: <script type="text/javascript">document.write(replace)</script></p>
+    <p>ToUpperCase method: <script type="text/javascript">document.write(upper)</script></p>
+    <p>ToLowerCase method: <script type="text/javascript">document.write(lower)</script></p>
+    <h1>Number Methods</h1>
+    <p>ToString method: <script type="text/javascript">document.write(tostring)</script></p>
+    <p>ToExponential method: <script type="text/javascript">document.write(exponential)</script></p>
+    <p>ToFixed method: <script type="text/javascript">document.write(fixed)</script></p>
+    <p>IsInteger method: <script type="text/javascript">document.write(integer)</script></p>
+    <p>IsSafeInteger method: <script type="text/javascript">document.write(safe)</script></p>
+    <h1>Array Methods</h1>
+    <p>Length method: <script type="text/javascript">document.write(length)</script></p>
+    <p>ToString method: <script type="text/javascript">document.write(arraystring)</script></p>
+    <p>Pop method: <script type="text/javascript">document.write(pop)</script></p>
+    <p>Push method: <script type="text/javascript">document.write(push)</script></p>
+    <p>Shift method: <script type="text/javascript">document.write(shift)</script></p>
+    <h1>Date Methods</h1>
+    <p>getFullYear method: <script type="text/javascript">document.write(year)</script></p>
+    <p>getMonth method: <script type="text/javascript">document.write(month)</script></p>
+    <p>getDay method: <script type="text/javascript">document.write(day)</script></p>
+    <p>getHour method: <script type="text/javascript">document.write(hour)</script></p>
+    <p>getTime method: <script type="text/javascript">document.write(time)</script></p>
+    <h1>Function methods</h1>
+
+</body>
+</html>
